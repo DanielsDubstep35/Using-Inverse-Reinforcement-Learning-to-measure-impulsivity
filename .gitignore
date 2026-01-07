@@ -1,0 +1,12 @@
+# Logs
+*.log
+
+# Saved / cache data (Practicum)
+src/Practicum/Saved/
+
+# Web cache / browser data
+webcache_*/
+
+# OS / editor
+.DS_Store
+Thumbs.db
