@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "LabStreamingLayer Plugin",
+	"Description": "Inlet/Outlet for LabStreamingLayer",
+	"Category": "Input Devices",
+	"CreatedBy": "Chadwick Boulay",
+	"CreatedByURL": "",
+	"DocsURL": "https://labstreaminglayer.readthedocs.io/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e204576bd4de4bfdaad28c06133def5c",
+	"SupportURL": "https://github.com/labstreaminglayer/plugin-UE4",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "LSL",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Linux"
+			]
+		}
+	]
+}
