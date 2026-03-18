@@ -87,3 +87,17 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+
+# Global catch-all for nested Unreal project
+**/Intermediate/
+**/Plugins/**/Intermediate/
+**/Saved/
+**/Binaries/
+**/Plugins/**/Binaries/
+**/DerivedDataCache/
+**/Build/
+.vs/
+*.pdb
+*.obj
+*.pch
