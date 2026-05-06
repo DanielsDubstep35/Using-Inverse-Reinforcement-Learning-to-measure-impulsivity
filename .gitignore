@@ -62,7 +62,7 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/**/Binaries/*
+# Plugins/**/Binaries/*
 
 # Builds
 Build/*
@@ -83,7 +83,7 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/**/Intermediate/*
+# Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
@@ -91,13 +91,34 @@ DerivedDataCache/*
 
 # Global catch-all for nested Unreal project
 **/Intermediate/
-**/Plugins/**/Intermediate/
+# **/Plugins/**/Intermediate/
 **/Saved/
 **/Binaries/
-**/Plugins/**/Binaries/
+# **/Plugins/**/Binaries/
 **/DerivedDataCache/
 **/Build/
 .vs/
 *.pdb
 *.obj
 *.pch
+
+# We need the lsl plugin
+
+!src/Practicum/Plugins/**/*.lib
+!src/Practicum/Plugins/**/*.dll
+!src/Practicum/Plugins/**/*.so
+
+# Installed FAB content
+src/Practicum/Content/StylizedGrassByMayu
+src/Practicum/Content/UnrealDrive_CitySample
+src/Practicum/Content/Fab/
+
+# Unreal Engine derived folders
+Binaries/*
+Intermediate/*
+Saved/*
+DerivedDataCache/*
+
+# Large Python outputs
+.ipynb_checkpoints/
+*/airl_logs/
