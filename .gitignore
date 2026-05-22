@@ -102,8 +102,12 @@ DerivedDataCache/*
 *.obj
 *.pch
 
-# We need the lsl plugin
 
+#####
+# Daniels Options
+#####
+
+# We need the lsl plugin
 !src/Practicum/Plugins/**/*.lib
 !src/Practicum/Plugins/**/*.dll
 !src/Practicum/Plugins/**/*.so
@@ -122,3 +126,13 @@ DerivedDataCache/*
 # Large Python outputs
 .ipynb_checkpoints/
 */airl_logs/
+
+# Deprecated / images
+/Game_Tests/
+/src/PythonAIRL/Pipeline/__pycache__/
+/src/PythonAIRL/Pipeline/Deprecated_Code/
+*.png
+*.pth
+*.vscode/
+*.csv
+/src/PythonAIRL/Original_Data
