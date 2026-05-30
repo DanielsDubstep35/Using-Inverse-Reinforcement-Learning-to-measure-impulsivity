@@ -3,13 +3,6 @@
 	"EngineAssociation": "5.7",
 	"Category": "",
 	"Description": "",
-	"Modules": [
-		{
-			"Name": "Practicum",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
 	"Plugins": [
 		{
 			"Name": "RawInput",
@@ -28,7 +21,7 @@
 		},
 		{
 			"Name": "LabStreamingLayer",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e204576bd4de4bfdaad28c06133def5c"
 		},
 		{
@@ -46,7 +39,7 @@
 		},
 		{
 			"Name": "MetaRoad",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }

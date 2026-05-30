@@ -113,9 +113,9 @@ DerivedDataCache/*
 !src/Practicum/Plugins/**/*.so
 
 # Installed FAB content
-src/Practicum/Content/StylizedGrassByMayu
+# src/Practicum/Content/StylizedGrassByMayu
 src/Practicum/Content/UnrealDrive_CitySample
-src/Practicum/Content/Fab/
+# src/Practicum/Content/Fab/
 
 # Unreal Engine derived folders
 Binaries/*
@@ -135,4 +135,4 @@ DerivedDataCache/*
 *.pth
 *.vscode/
 *.csv
-/src/PythonAIRL/Original_Data
+/src/PythonAIRL/Original_Data/*/

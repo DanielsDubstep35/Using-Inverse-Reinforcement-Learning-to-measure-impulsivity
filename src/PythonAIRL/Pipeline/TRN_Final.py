@@ -18,7 +18,7 @@ from imitation.data.types import TrajectoryWithRew
 from imitation.data.wrappers import RolloutInfoWrapper
 
 import gymnasium as class_gymnasium
-from Game_Code import DummyDrivingEnv, get_normalized_vector
+from Game import DummyDrivingEnv, get_normalized_vector
 
 # ==============================================================================
 # 1. COMPLIANCE & ENVIRONMENT ADAPTER (Gymnasium Interface Bridge)
