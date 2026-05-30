@@ -1,5 +1,5 @@
 *.uasset filter=lfs diff=lfs merge=lfs -text
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.FBX filter=lfs diff=lfs merge=lfs -text
-# *.pth filter=lfs diff=lfs merge=lfs -text
-# src\PythonAIRL\Original_Data\master_airl_expert_dataset.csv filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text
+src\PythonAIRL\Original_Data\master_airl_expert_dataset.csv filter=lfs diff=lfs merge=lfs -text
